@@ -1,0 +1,4 @@
+{{/*  <div class="mdc-tab  */}}
+<div class="relative antialiased text-sm leading-9 font-bold tracking-wider no-underline uppercase flex flex-auto justify-center box-border h-12 px-6 border-none outline-none text-center uppercase whitespace-nowrap cursor-pointer z-10"
+ id="{{ .Get "id" }}" role="tab" aria-controls="{{ .Get "panelid" }}" option {{ if .Get "param" }}{{ .Get "param" }}{{end}} {{ if .Get "style" }} style="{{ .Get "style" }}"{{end}}>{{ .Get "title" }}</div>
+<div class="{{ .Get "class" }}" id="{{ .Get "panelid" }}" role="tabpanel" aria-labelledby="{{ .Get "id" }}">{{ .Inner}}</div>
