@@ -1,3 +1,3 @@
-module gitlab.com/fuww/tailwind-landing-pages-shortcodes
+module gitlab.com/fashionunited/public/tailwind-landing-pages-shortcodes
 
 go 1.19
